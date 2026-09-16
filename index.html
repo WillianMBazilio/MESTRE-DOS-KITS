@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mestre dos Kits — Ferramentas &amp; Kits de Construção | Salto, SP</title>
+<meta name="description" content="Ferramentas, kits e soluções práticas para quem gosta de colocar a mão na massa. Loja em Salto, SP.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================== HEADER =========================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-bar">
+    <a href="#topo" class="brand" aria-label="Mestre dos Kits — início">
+      <img src="mdk logo.png" alt="Logo Mestre dos Kits" class="brand-logo">
+      <span class="brand-name">MESTRE <span>DOS KITS</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions desktop-only">
+      <a href="#produtos" class="btn btn--primary btn--small">Ver produtos</a>
+    </div>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
+  <ul>
+    <li><a href="#topo">Início</a></li>
+    <li><a href="#produtos">Produtos</a></li>
+    <li><a href="#sobre">Sobre nós</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <div class="header-actions">
+    <a href="#produtos" class="btn btn--primary">Ver produtos</a>
+  </div>
+</nav>
+
+<main id="topo">
+
+  <!-- =========================== HERO =========================== -->
+  <section class="hero">
+    <div class="hero-blocks" aria-hidden="true">
+      <div class="hero-block hb-1"></div>
+      <div class="hero-block hb-2"></div>
+      <div class="hero-block hb-3"></div>
+      <div class="hero-block hb-4"></div>
+      <div class="hero-block hb-5"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-kicker">
+          <img src="mdk logo.png" alt="">
+          Loja de ferramentas
+        </span>
+
+        <h1 class="hero-title">
+          <span class="line">MESTRE</span>
+          <span class="line accent">DOS KITS</span>
+        </h1>
+
+        <p class="hero-headline">Ferramentas para construir qualquer ideia.</p>
+        <p class="hero-text">Kits, ferramentas e soluções práticas para quem gosta de colocar a mão na massa.</p>
+
+        <p class="hero-location">📍 Salto — SP</p>
+
+        <div class="hero-actions">
+          <a href="#produtos" class="btn btn--primary">Ver produtos</a>
+          <a href="#sobre" class="btn btn--outline">Conheça a Mestre dos Kits</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-plate">
+          <img src="mdk logo.png" alt="Logo Mestre dos Kits">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== CONSTRUÍDO PARA VOCÊ =========================== -->
+  <section class="build-section" id="proposta">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-heading">Construído para quem constrói.</h2>
+        <p class="build-intro">A Mestre dos Kits nasceu em Salto, SP, com uma ideia simples: reunir ferramentas e kits úteis, acessíveis e práticos para facilitar desde pequenos reparos até projetos maiores.</p>
+      </div>
+
+      <div class="build-cards">
+        <article class="build-card reveal">
+          <div class="build-card-studs"><span class="stud"></span></div>
+          <div class="build-icon" aria-hidden="true">🎯</div>
+          <h3>Qualidade</h3>
+          <p>Produtos selecionados pensando em utilidade e custo-benefício.</p>
+        </article>
+
+        <article class="build-card reveal">
+          <div class="build-card-studs"><span class="stud"></span></div>
+          <div class="build-icon" aria-hidden="true">🧰</div>
+          <h3>Praticidade</h3>
+          <p>Kits completos para você ter as ferramentas certas em um só lugar.</p>
+        </article>
+
+        <article class="build-card reveal">
+          <div class="build-card-studs"><span class="stud"></span></div>
+          <div class="build-icon" aria-hidden="true">💰</div>
+          <h3>Custo-benefício</h3>
+          <p>Produtos acessíveis para diferentes necessidades.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== PRODUTOS =========================== -->
+  <section id="produtos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Nossos kits</span>
+        <h2 class="section-heading">Escolha sua próxima ferramenta.</h2>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Produto 01 -->
+        <article class="product-card reveal"
+          data-name="Nível Laser Profissional Trena Level Pro 3 Estágios Nivelador"
+          data-desc="Ferramenta multifuncional de medição que combina nível de bolha de 3 estágios, projetor de linhas a laser e trena embutida, ideal para trabalhos de alinhamento e nivelamento de precisão."
+          data-price="R$ 21,88"
+          data-old-price="R$ 88,88"
+          data-image="1.png">
+          <div class="product-media" data-fallback-label="1.png">
+            <span class="badge-offer">Oferta</span>
+            <span class="product-stud" aria-hidden="true"></span>
+            <img src="1.png" alt="Nível Laser Profissional Trena Level Pro 3 Estágios Nivelador" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Nível Laser Profissional Trena Level Pro 3 Estágios Nivelador</h3>
+            <p class="product-desc">Nível de bolha de 3 estágios, projetor de linhas a laser e trena embutida para alinhamento de precisão.</p>
+            <div class="product-prices">
+              <span class="price-old">R$ 88,88</span>
+              <span class="price-now">R$ 21,88</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn--outline btn--small btn-details">Ver detalhes</button>
+              <button class="btn btn--primary btn--small btn-interest">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 02 -->
+        <article class="product-card reveal"
+          data-name="Multímetro Digital Profissional Cabo Multi Teste Portátil"
+          data-desc="Multímetro digital compacto e portátil (modelo DT830D) acompanhado de pontas de prova. Ideal para medições de tensão AC/DC, corrente contínua, resistência e testes de diodo/transistor em manutenção eletroeletrônica."
+          data-price="R$ 11,31"
+          data-old-price=""
+          data-image="2.png">
+          <div class="product-media" data-fallback-label="2.png">
+            <span class="product-stud" aria-hidden="true"></span>
+            <img src="2.png" alt="Multímetro Digital Profissional Cabo Multi Teste Portátil" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Multímetro Digital Profissional Cabo Multi Teste Portátil</h3>
+            <p class="product-desc">Compacto e portátil (modelo DT830D), acompanha pontas de prova para tensão, corrente, resistência e diodo/transistor.</p>
+            <div class="product-prices">
+              <span class="price-now">R$ 11,31</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn--outline btn--small btn-details">Ver detalhes</button>
+              <button class="btn btn--primary btn--small btn-interest">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 03 -->
+        <article class="product-card reveal"
+          data-name="Kit Ferro De Solda Soldar Soldador 110v ou 220v 40w ou 60w Com Estanho Resistente"
+          data-desc="Conjunto completo para soldagem elétrica, incluindo ferro de solda com cabo anatômico e protetor, suporte para apoio e tubos/carretéis de fio de solda de estanho. Perfeito para reparos em placas, eletrônicos e trabalhos artesanais."
+          data-price="R$ 15,66"
+          data-old-price=""
+          data-image="3.png">
+          <div class="product-media" data-fallback-label="3.png">
+            <span class="product-stud" aria-hidden="true"></span>
+            <img src="3.png" alt="Kit Ferro De Solda Soldar Soldador 110v ou 220v 40w ou 60w Com Estanho Resistente" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Kit Ferro de Solda Soldar Soldador 110v/220v 40w/60w Com Estanho</h3>
+            <p class="product-desc">Ferro de solda com cabo anatômico e protetor, suporte de apoio e fio de solda de estanho. Ideal para placas e trabalhos artesanais.</p>
+            <div class="product-prices">
+              <span class="price-now">R$ 15,66</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn--outline btn--small btn-details">Ver detalhes</button>
+              <button class="btn btn--primary btn--small btn-interest">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 04 -->
+        <article class="product-card reveal"
+          data-name="Kit Ferramentas Profissional 46 Peças Forjado Alta Qualidade Soquetes Catraca"
+          data-desc="Jogo completo de soquetes e ponteiras de precisão com chave catraca reversível, extensores flexíveis e rígidos, cabos e chaves Allen, acomodados em um estojo organizador rígido. Indicado para manutenção automotiva, mecânica e uso doméstico."
+          data-price="R$ 24,85"
+          data-old-price=""
+          data-image="4.png">
+          <div class="product-media" data-fallback-label="4.png">
+            <span class="product-stud" aria-hidden="true"></span>
+            <img src="4.png" alt="Kit Ferramentas Profissional 46 Peças Forjado Alta Qualidade Soquetes Catraca" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Kit Ferramentas Profissional 46 Peças Soquetes e Catraca</h3>
+            <p class="product-desc">Soquetes e ponteiras de precisão, catraca reversível, extensores e chaves Allen em estojo organizador rígido.</p>
+            <div class="product-prices">
+              <span class="price-now">R$ 24,85</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn--outline btn--small btn-details">Ver detalhes</button>
+              <button class="btn btn--primary btn--small btn-interest">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 05 -->
+        <article class="product-card reveal"
+          data-name="Kit Jogo De Ferramentas Com Maleta 12 Peças Titanium"
+          data-desc="Maleta de ferramentas essenciais composta por 12 peças, incluindo alicate universal, estilete retrátil, chaves de fenda e Phillips, teste de voltagem, trena e jogo de chaves Allen. Ideal para reparos e manutenções do dia a dia."
+          data-price="R$ 15,66"
+          data-old-price=""
+          data-image="5.png">
+          <div class="product-media" data-fallback-label="5.png">
+            <span class="product-stud" aria-hidden="true"></span>
+            <img src="5.png" alt="Kit Jogo De Ferramentas Com Maleta 12 Peças Titanium" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Kit Jogo de Ferramentas Com Maleta 12 Peças Titanium</h3>
+            <p class="product-desc">Alicate universal, estilete retrátil, chaves de fenda e Phillips, teste de voltagem, trena e jogo de chaves Allen.</p>
+            <div class="product-prices">
+              <span class="price-now">R$ 15,66</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn--outline btn--small btn-details">Ver detalhes</button>
+              <button class="btn btn--primary btn--small btn-interest">Tenho interesse</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== OFERTA EM DESTAQUE =========================== -->
+  <section class="offer-section">
+    <div class="container">
+      <div class="offer-plate reveal">
+        <div class="offer-content">
+          <h2 class="offer-title">Monte seu kit.<br><span class="hi">Pague menos.</span></h2>
+          <p class="offer-text">Encontre ferramentas práticas para seus projetos sem complicação.</p>
+          <a href="#produtos" class="btn btn--primary">Ver todos os produtos</a>
+        </div>
+
+        <div class="offer-card">
+          <span class="offer-tag">Oferta</span>
+          <div class="offer-card-media">
+            <img src="1.png" alt="Nível Laser Profissional" loading="lazy">
+          </div>
+          <h3>Nível Laser Profissional</h3>
+          <div class="product-prices">
+            <span class="price-old">De R$ 88,88</span>
+            <span class="price-now">Por R$ 21,88</span>
+          </div>
+          <a href="#produtos" class="btn btn--red btn--small" style="width:100%;">Quero esse kit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== SOBRE =========================== -->
+  <section class="container about-section" id="sobre">
+    <div class="about-text reveal">
+      <span class="eyebrow">Sobre a Mestre dos Kits</span>
+      <h2 class="section-heading">Feita para quem gosta de construir.</h2>
+      <p>Somos fornecedores diretos de ferramentas e kits de construção, com sede em Salto, São Paulo. Nosso objetivo é oferecer produtos úteis, acessíveis e práticos para quem gosta de construir, consertar, criar e colocar projetos em prática.</p>
+      <div class="about-tags">
+        <span class="about-location">📍 Salto — São Paulo</span>
+        <span class="about-location about-location--alt">🏭 Fornecedores diretos</span>
+      </div>
+    </div>
+
+    <div class="about-illustration reveal" aria-hidden="true">
+      <div class="stack stack-a">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+      <div class="stack stack-b">
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+      <div class="stack stack-c">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== COMO FUNCIONA =========================== -->
+  <section class="how-section">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Como funciona</span>
+        <h2 class="section-heading">Do pedido ao projeto pronto.</h2>
+      </div>
+
+      <div class="how-steps reveal">
+        <div class="how-step">
+          <span class="how-number">01</span>
+          <h3>Escolha</h3>
+          <p>Encontre o kit ou ferramenta que você precisa.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-number">02</span>
+          <h3>Fale com a gente</h3>
+          <p>Entre em contato para confirmar disponibilidade e condições.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-number">03</span>
+          <h3>Construa</h3>
+          <p>Receba seu produto e coloque seu projeto em prática.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== CONTATO =========================== -->
+  <section id="contato">
+    <div class="container">
+      <div class="contact-plate reveal">
+        <h2 class="contact-title">Vamos construir?</h2>
+        <p class="contact-text">Tem alguma dúvida sobre um produto ou quer saber mais sobre nossos kits? Fale com a Mestre dos Kits.</p>
+        <div class="contact-actions">
+          <a href="#" id="whatsappBtn" class="btn btn--primary">WhatsApp</a>
+          <a href="#" id="instagramBtn" class="btn btn--outline">Instagram</a>
+          <a href="#" id="contactBtn" class="btn btn--red">Entrar em contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================== FOOTER =========================== -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <span class="brand-name">MESTRE <span>DOS KITS</span></span>
+      <p class="footer-tagline">Ferramentas &amp; Kits de Construção</p>
+      <span class="footer-location">📍 Salto — SP</span>
+    </div>
+
+    <nav class="footer-nav" aria-label="Links do rodapé">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-contact">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="#" id="footerWhatsapp">WhatsApp</a></li>
+        <li><a href="#" id="footerInstagram">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© 2026 Mestre dos Kits. Todos os direitos reservados.</span>
+    <span>Salto — São Paulo, Brasil</span>
+  </div>
+</footer>
+
+<!-- =========================== MODAL DE PRODUTO =========================== -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">&times;</button>
+    <div class="modal-media img-fallback" id="modalMedia">
+      <img id="modalImage" src="" alt="">
+    </div>
+    <h3 class="modal-name" id="modalName"></h3>
+    <p class="modal-desc" id="modalDesc"></p>
+    <div class="modal-prices">
+      <span class="modal-price-old" id="modalOldPrice"></span>
+      <span class="modal-price-now" id="modalNewPrice"></span>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn--primary" id="modalInterest">Tenho interesse</button>
+      <button class="btn btn--outline" id="modalCloseBtn">Fechar</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
